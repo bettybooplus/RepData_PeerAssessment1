@@ -1,6 +1,5 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-date: "`r Sys.Date()`"
 output: 
   html_document:
     fig_caption: yes
@@ -10,13 +9,12 @@ output:
 This document is intended to perform all the steps needed to successfully complete the Course Project 1. 
 
 ```{r global_options, include=FALSE}
-knitr::opts_chunk$set(fig.width=6, fig.height=6, fig.show=TRUE,
-                       warning=FALSE, message=FALSE)
+knitr::opts_chunk$set(fig.width=6, fig.height=6, fig.path="figure/",                              fig.show=TRUE, warning=FALSE, message=FALSE)
 ```
 
 ### Loading and preprocessing the data
 
-```{r echo=TRUE, message=FALSE, warning=FALSE}
+```{r echo=TRUE}
 ##Load libraries
 library(ggplot2)
 library(dplyr)

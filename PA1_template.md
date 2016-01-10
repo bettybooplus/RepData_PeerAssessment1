@@ -1,5 +1,4 @@
 # Reproducible Research: Peer Assessment 1
-`r Sys.Date()`  
 ****
 This document is intended to perform all the steps needed to successfully complete the Course Project 1. 
 
