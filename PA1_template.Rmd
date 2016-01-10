@@ -10,7 +10,7 @@ output:
 This document is intended to perform all the steps needed to successfully complete the Course Project 1. 
 
 ```{r global_options, include=FALSE}
-knitr::opts_chunk$set(fig.width=6, fig.height=6, fig.path="figure",
+knitr::opts_chunk$set(fig.width=6, fig.height=6, fig.show=TRUE,
                        warning=FALSE, message=FALSE)
 ```
 
