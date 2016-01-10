@@ -29,7 +29,7 @@ totalsteps <- aggregate(steps ~ date, data=data, sum, na.rm = TRUE)
 hist(totalsteps$steps, main="Total number of steps taken per day", xlab="Steps per day", col="grey")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
+![](figure/unnamed-chunk-2-1.png) 
 
 2. Mean and median of the total number of steps taken per day
 
@@ -67,7 +67,7 @@ ggplot(timeseries, aes(interval, steps)) +
               x="5-minute interval", y="Average Number of Steps Taken")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png) 
+![](figure/unnamed-chunk-5-1.png) 
 
 2. 5-minute interval which contains the maximum number of steps
 
@@ -109,7 +109,7 @@ averageimputed <- aggregate(steps ~ date, data=dataimput, sum)
 hist(averageimputed$steps, main = "Total number of steps by day", xlab = "Steps per day", col = "grey")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png) 
+![](figure/unnamed-chunk-9-1.png) 
 
 * *Mean value*
 
@@ -162,5 +162,5 @@ ggplot(averages, aes(interval, steps)) +
         xlab("5-minute interval") + ylab("Number of of steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png) 
+![](figure/unnamed-chunk-13-1.png) 
 
